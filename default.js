@@ -12,5 +12,5 @@ function friends(numbs =[]){
 
 }
 function person(human = {}){
-     
+
 }
