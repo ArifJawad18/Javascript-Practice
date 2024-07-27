@@ -6,3 +6,8 @@
 // 6object.key, object.values, object.entries
 // 7. for of used in Array and string,
 // 8.for in loop used in object
+// <><><><><><><><><<<<<<<<<<<<<>>>>>>><><><><<<<<<<<<<<<<>>>>>>>>>>>>><
+
+// 1. data access
+
+
