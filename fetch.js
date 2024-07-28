@@ -21,3 +21,14 @@ const numbers = [23, 32, 87, 56, 43];
 numbers, forEach((num) => console.log(num));
 numbers.map(num = num * 2);
 
+ ///// ///// /////// ///// /////
+ class Vahicle{
+  constructor(name, price){
+    this.name=name;
+    this.price=price;
+
+  }
+  move(){
+    console.log('we will go out side')
+  }
+ }
