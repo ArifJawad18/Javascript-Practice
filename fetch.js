@@ -3,12 +3,13 @@
 //   .then((json) => console.log(json));
 */
 
-function loadData(){
-  const url = 'https://jsonplaceholder.typicode.com/users'
-  fetch(url) 
-  .then(response => response.json())
-  .then(json => console.log(json))
-
-
+function loadData() {
+  fetch('https://jsonplaceholder.typicode.com/users')
+    .then(res => res.json())
+    .then(data => loadData(data));
 }
-
+function loadData(data) {
+  for (const user of data) {
+    console.log(user.email);
+  }
+}
