@@ -1,3 +1,10 @@
+// console.log(5>=10);
+// console.log(10 == 10.1)
+// console.log(10 != 10.1)
+
+
+
+
 // var: no reason to use var
 //  let:allow it to reassign
 //  const: do not allow it to reassign
