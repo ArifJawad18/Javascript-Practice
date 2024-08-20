@@ -6,3 +6,13 @@ if (salary > 20000 && height > 66) {
 } else {
   console.log("no dont do this");
 }
+
+// MULTI_LEVEL CONDITION
+
+const price = 5000;
+
+if(price >= 5000){
+  // 10% discount
+  const discount = price * 10/100;
+
+}
