@@ -11,14 +11,12 @@ if (salary > 20000 && height > 66) {
 
 const price = 5000;
 
-if(price >= 5000){
+if (price >= 5000) {
   // 10% discount
-  const discount = price * 10/100;
-  const payAmount =price - discount;
+  const discount = (price * 10) / 100;
+  const payAmount = price - discount;
   console.log(payAmount);
-
-}
-else{
+} else {
   console.log(price);
-  
 }
+
