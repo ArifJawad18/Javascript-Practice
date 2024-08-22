@@ -1,22 +1,32 @@
-const salary = 25000;
-const isBCS = true;
+// const salary = 25000;
+// const isBCS = true;
 
-if (salary > 20000 && height > 66) {
-  console.log("yes do this");
+// if (salary > 20000 && height > 66) {
+//   console.log("yes do this");
+// } else {
+//   console.log("no dont do this");
+// }
+
+// // MULTI_LEVEL CONDITION
+
+// const price = 5000;
+
+// if (price >= 5000) {
+//   // 10% discount
+//   const discount = (price * 10) / 100;
+//   const payAmount = price - discount;
+//   console.log(payAmount);
+// } else {
+//   console.log(price);
+// }
+
+///// Nested if-else condition//////////////
+
+const money = 500;
+if (money > 300) {
+  console.log("i know you you are rich");
 } else {
-  console.log("no dont do this");
+  if (money > 100) {
+    console.log("no i am not rich");
+  }
 }
-
-// MULTI_LEVEL CONDITION
-
-const price = 5000;
-
-if (price >= 5000) {
-  // 10% discount
-  const discount = (price * 10) / 100;
-  const payAmount = price - discount;
-  console.log(payAmount);
-} else {
-  console.log(price);
-}
-
