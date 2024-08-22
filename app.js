@@ -30,3 +30,21 @@ if (money > 300) {
     console.log("no i am not rich");
   }
 }
+
+//////If-else shorthand Ternary Operator//////////
+
+// simple ternary
+// age>=18? console.log('ha dio'): console.log('ghumai thako');
+
+// let price = 500;
+// const isLeader = true;
+// if(isLeader === true){
+//   price=0;
+// }
+// else{
+//   price= price +100;
+// }
+// console.log()
+
+
+
