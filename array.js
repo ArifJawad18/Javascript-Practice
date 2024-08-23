@@ -14,3 +14,5 @@ const number = [12, 14, 44, 56];
 const friend = ["me", "you", "i", "he", "she"];
 console.log(number);
 console.log(number[1]);
+
+console.log(friend.indexOf(2))
