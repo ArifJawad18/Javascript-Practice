@@ -49,6 +49,15 @@ if (money > 300) {
 
 
 
+const number =7;
+if(number<10){
+  console.log('number pelam')
+}
+console.log('something new is cooking')
 
+// ---- WHILE---lOOP------------
+const num = 0;
+while(num < 5){
+  console.log('looping,num');
 
-
+}
