@@ -22,14 +22,14 @@
 
 ///// Nested if-else condition//////////////
 
-const money = 500;
-if (money > 300) {
-  console.log("i know you you are rich");
-} else {
-  if (money > 100) {
-    console.log("no i am not rich");
-  }
-}
+// const money = 500;
+// if (money > 300) {
+//   console.log("i know you you are rich");
+// } else {
+//   if (money > 100) {
+//     console.log("no i am not rich");
+//   }
+// }
 
 //////If-else shorthand Ternary Operator//////////
 
@@ -49,20 +49,37 @@ if (money > 300) {
 
 
 
-const number =7;
-if(number<10){
-  console.log('number pelam')
-}
-console.log('something new is cooking')
+// const number =7;
+// if(number<10){
+//   console.log('number pelam')
+// }
+// console.log('something new is cooking')
 
-// ---- WHILE---lOOP------------
-let num = 0;
-while(num < 5){
-  console.log('looping,num');
-  // num = num + 1;
-  // num +=1;
+// // ---- WHILE---lOOP------------
+
+// let num = 0;
+// while(num < 5){
+//   console.log('looping,num');
+//   // num = num + 1;
+//   // num +=1;
+//   num++;
+// }
+
+//   let num = 1;
+//   let sum = 0;
+//   while (num <= 10){
+//     console.log(num);
+//     sum = sum+num;
+//     console.log('sum:', sum);
+//     num++;
+//   }
+
+
+ 
+// Array 
+let num = 1;
+while(num <= 10){
+  console.log(num);
   num++;
+
 }
-
-
-
