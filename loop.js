@@ -46,9 +46,6 @@
 // }
 // console.log()
 
-
-
-
 // const number =7;
 // if(number<10){
 //   console.log('number pelam')
@@ -75,7 +72,6 @@
 //   }
 
 
- 
 // // Array 
 // let num = 1;
 // while(num <= 10){
@@ -84,8 +80,6 @@
 
 // }
 
-
-
 // For Loop // 
 // let num = 0;
 // while(num < 5){
@@ -93,13 +87,12 @@
 //   num++;
 // }
 
-for(let num=0 ;num <5; num++){
-  console.log(num);
+// for(let num=0 ;num <5; num++){
+//   console.log(num);
 
-}
+// }
 
-
-
+// /// //for sum// /////
 
 
 
