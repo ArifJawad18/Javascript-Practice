@@ -19,3 +19,11 @@ let reverse =''
 for(const letter of sentence){
      console.log(letter);
 }
+
+const bottle={
+     brand:'sky',
+     price:45,
+     color:white,
+     isClean:false,
+
+}
