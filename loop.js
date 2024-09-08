@@ -106,8 +106,15 @@ for(let i =11; i<=20; i++){
 //   }
 // }
 
-for(let i =1; i< 20; i+=2){
-  console.log(i);
+// for(let i =1; i< 20; i+=2){
+//   console.log(i);
+// }
+// const friend = ['Elon','Mark','Bill'];
+
+
+const number = [50,23,456,222,345,323]
+for (let i =0; i<number.length; i++){
+
 }
 
 
