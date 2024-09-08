@@ -112,10 +112,10 @@ for(let i =11; i<=20; i++){
 // const friend = ['Elon','Mark','Bill'];
 
 
-const number = [50,23,456,222,345,323]
-for (let i =0; i<number.length; i++){
+// const number = [50,23,456,222,345,323]
+// for (let i =0; i<number.length; i++){
 
-}
+// }
 
 
 
