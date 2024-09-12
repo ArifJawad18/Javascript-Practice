@@ -4,3 +4,8 @@ number.reverse();
 
 console.log(number);
  const person = ['Rakib','Sakib','Tamim'];
+
+
+ const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+
