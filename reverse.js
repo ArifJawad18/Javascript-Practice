@@ -9,3 +9,4 @@ console.log(number);
  const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 
+  
