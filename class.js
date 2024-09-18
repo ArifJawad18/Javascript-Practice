@@ -5,7 +5,7 @@ const products=[
      {id:1,name:'mac', price:74000},
 
  ]
-//  similar
+//  similar 
 class Product{
      country ='Bangladesh';
      constructor(name){
