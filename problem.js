@@ -6,8 +6,7 @@
 //           return false;
 //      }
 // }
-// const isLipi = isLeapYear(2052);
-// console.log(isLipi);
+/////////////////////////////////////
 
 // function addAverage(number ){
 
@@ -17,7 +16,11 @@
 // const avg = addAverage(numbers);
 // console.log('average of number odd numbers:',avg);
 
+////////////////////////////////////
 
+// array has some duplicate element
+
+// const names =  [aiul, yoko,adel, formil,nami]
 
 
 
