@@ -23,11 +23,17 @@
 // const names =  [aiul, yoko,adel, formil,nami]
 
 
+// Swap variable, swap without temp, destructing
 
+// let a= 7 ;
+// let b= 9;
+// console.log(a,b);
 
+// ////////////////////////////////
+console.log(Math.max(1, 3, 2));
 
-
-
+const max = Math.max(12,1,56,44,66,96,4);
+console.log('max isuing Math.max',max);
 
 
 
