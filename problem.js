@@ -50,5 +50,5 @@ function woodQuantity(chair, table, bed) {
   return totalWood;
 }
 
-const wood = woodQuantity(0, 0, 1);
+const wood = woodQuantity(1, 1, 1);
 console.log("wood needed", wood);
