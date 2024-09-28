@@ -1,54 +1,56 @@
-// function isLeapYear (year){
-//      if(year % 4===0){
-//           return true;
-//      }
-//      else{
-//           return false;
-//      }
-// }
-/////////////////////////////////////
-
-// function addAverage(number ){
-
-// }
-// const numbers = [42.33,54,65,32,54];
-
-// const avg = addAverage(numbers);
-// console.log('average of number odd numbers:',avg);
-
-////////////////////////////////////
-
-// array has some duplicate element
-
-// const names =  [aiul, yoko,adel, formil,nami]
-
-// Swap variable, swap without temp, destructing
-
-// let a= 7 ;
-// let b= 9;
-// console.log(a,b);
-
-// ////////////////////////////////
-// console.log(Math.max(1, 3, 2));
-
-// const max = Math.max(12,1,56,44,66,96,4);
-// console.log('max isuing Math.max',max);
-
 // ///////////////multiplication to calculate ///////////////////
 
-function woodQuantity(chair, table, bed) {
-  const perChairWood = 3;
-  const perTableWood = 10;
-  const perBedWood = 50;
+// function woodQuantity(chair, table, bed) {
+//   const perChairWood = 3;
+//   const perTableWood = 10;
+//   const perBedWood = 50;
 
-  const chairTotalWood = chairQuantity * perChairWood;
-  const tableTotaleWood = tableTotaleWood * perTableWood;
-  const bedTotalWood = bedQuantity * perBedWood;
+//   const chairTotalWood = chairQuantity * perChairWood;
+//   const tableTotalWood = tableTotalWood * perTableWood;
+//   const bedTotalWood = bedQuantity * perBedWood;
 
-  const totalWood = chairTotalWood + tableTotaleWood + bedTotalWood;
+//   const totalWood = chairTotalWood + tableTotalWood + bedTotalWood;
 
-  return totalWood;
+//   return totalWood;
+// }
+
+// const wood = woodQuantity(1, 1, 1);
+// console.log("wood needed", wood);
+
+
+////// cheapest phone from an array of phone objects///////
+
+// const prices = [2000, 3000,4000,5000,64000,7000]
+
+// function getMin(numbers){
+//   let min = numbers[0];
+//   for(const num of numbers){
+//     if(num < min){
+//       min = num
+//     }
+//   }
+//   return min;
+// }
+
+// const cheap = getMin(prices);
+// console.log('cheapest one is: ', cheap);
+
+const phones= [
+  {name: 'vivo', price:27000,camera:'12mp', color:'black'},
+  {name: 'oppo', price:72000,camera:'14mp', color:'black'},
+  {name: 'mi', price:23000,camera:'12mp', color:'black'},
+]
+
+function getCheapestPhone(phones){
+  let min = phones[0];
+  for(const phone of phones){
+    if(phone.price < min.price){
+      min = phone
+
+    }
+  }
+  return min;
 }
 
-const wood = woodQuantity(1, 1, 1);
-console.log("wood needed", wood);
+const cheap = getCheapestPhone(phones);
+console.log('Cheapest phone is:', cheap);
