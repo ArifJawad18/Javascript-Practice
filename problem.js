@@ -35,22 +35,35 @@
 // const cheap = getMin(prices);
 // console.log('cheapest one is: ', cheap);
 
-const phones= [
-  {name: 'vivo', price:27000,camera:'12mp', color:'black'},
-  {name: 'oppo', price:72000,camera:'14mp', color:'black'},
-  {name: 'mi', price:23000,camera:'12mp', color:'black'},
-]
+// const phones= [
+//   {name: 'vivo', price:27000,camera:'12mp', color:'black'},
+//   {name: 'oppo', price:72000,camera:'14mp', color:'black'},
+//   {name: 'mi', price:23000,camera:'12mp', color:'black'},
+// ]
 
-function getCheapestPhone(phones){
-  let min = phones[0];
-  for(const phone of phones){
-    if(phone.price < min.price){
-      min = phone
+// function getCheapestPhone(phones){
+//   let min = phones[0];
+//   for(const phone of phones){
+//     if(phone.price < min.price){
+//       min = phone
 
-    }
-  }
-  return min;
+//     }
+//   }
+//   return min;
+// }
+
+// const cheap = getCheapestPhone(phones);
+// console.log('Cheapest phone is:', cheap);
+
+// //////Handle unexpected function input parameter error/////////////// //
+
+function multiply (num1, num2){
+  const mult = num1 * num2;
+  return mult;
+
 }
 
-const cheap = getCheapestPhone(phones);
-console.log('Cheapest phone is:', cheap);
+const result = multiply(5+7);
+console.log(result);
+
+const price = getPrice({name: car, price:880000 })
