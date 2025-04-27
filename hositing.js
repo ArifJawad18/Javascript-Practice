@@ -1,7 +1,8 @@
-console.log(a)
-var a = 5;
-
 one();
 function one(){
      console.log("One")
 }
+
+let b ;
+b=50
+console.log(b)
