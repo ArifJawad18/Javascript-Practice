@@ -36,15 +36,15 @@ if (money > 300) {
 // simple ternary
 // age>=18? console.log('ha dio'): console.log('ghumai thako');
 
-// let price = 500;
-// const isLeader = true;
-// if(isLeader === true){
-//   price=0;
-// }
-// else{
-//   price= price +100;
-// }
-// console.log()
+let price = 500;
+const isLeader = true;
+if(isLeader === true){
+  price=0;
+}
+else{
+  price= price +100;
+}
+console.log()
 
 // const number =7;
 // if(number<10){
